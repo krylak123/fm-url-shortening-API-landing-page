@@ -8,6 +8,7 @@
     width: 85%;
     border-radius: 10px;
     background-color: $color-primary-violet;
+    z-index: 10;
 
     &__container {
         position: relative;

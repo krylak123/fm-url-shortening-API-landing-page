@@ -1,0 +1,17 @@
+.summation {
+    padding: 68px 0;
+    background-color: $color-primary-violet;
+    background-image: url('../../images/bg-boost-mobile.svg');
+
+    &__title {
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+
+    @media screen  and (min-width: 1440px) {
+        background-image: url('../../images/bg-boost-desktop.svg');
+    }
+}

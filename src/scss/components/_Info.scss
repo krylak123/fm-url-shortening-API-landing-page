@@ -1,0 +1,35 @@
+.info {
+    background-color: #EFF1F7;
+
+    &__intro {
+        margin: 50px 0;
+    }
+
+    &__title, &__text {
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        color: $color-nautral-grayish-violet;
+    }
+
+    @media screen and (min-width: 1440px) {
+        &__title {
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+        &__text {
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        &__options {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

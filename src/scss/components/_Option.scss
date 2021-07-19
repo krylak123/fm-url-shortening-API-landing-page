@@ -1,0 +1,50 @@
+.option {
+    flex-basis: 30%;
+    position: relative;
+    margin: 100px 0;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 9;
+
+    &__icon-wrap {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: $color-primary-violet;
+    }
+
+    &__icon {
+        padding: 20px 23px;
+    }
+
+    &__title {
+        margin: 30px 0 20px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    &__text {
+        text-align: center;
+        font-size: .8rem;
+        color: $color-nautral-grayish-violet;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin: 100px 0 150px;
+
+        &__icon-wrap {
+            left: 20%;
+        }
+
+        &:nth-child(2) {
+            transform: translateY(40px);
+        }
+
+        &:nth-child(3) {
+            transform: translateY(80px);
+        }
+    }
+}

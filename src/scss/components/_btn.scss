@@ -1,0 +1,19 @@
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 40px;
+    font-family: $font-family-default;
+    font-size: $font-size-default;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    border-style: none;
+    border-radius: 50px;
+    background-color: $color-primary-cyan;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+        background-color: lighten(hsl(180, 66%, 49%), 10%);
+    }
+}
