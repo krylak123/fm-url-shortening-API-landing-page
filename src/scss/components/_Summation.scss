@@ -2,6 +2,9 @@
     padding: 68px 0;
     background-color: $color-primary-violet;
     background-image: url('../../images/bg-boost-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
     &__title {
         margin-bottom: 20px;

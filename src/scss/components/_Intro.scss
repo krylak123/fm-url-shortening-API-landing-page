@@ -2,11 +2,12 @@
     overflow-x: hidden;
 
     &__img-wrap {
-        margin: 50px 0 90px;
+        margin: 16vw 0 20vw;
     }
 
     &__img {
         width: 100%;
+        max-width: 900px;
         transform: scale(1.5) translateX(60px);
     }
 
