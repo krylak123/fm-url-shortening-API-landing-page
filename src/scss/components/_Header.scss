@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__logo-link {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo-wrap,&__hamburger-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    &__hamburger-menu-icon {
+        padding: 5px;
+        font-size: 1.6rem;
+        color: $color-nautral-grayish-violet;
+        cursor: pointer;
+    }
+
+    @media screen and (min-width: 1440px) {
+        position: static;
+
+        &__hamburger-menu {
+            display: none;
+        }
+    }
+}

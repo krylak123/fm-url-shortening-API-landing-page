@@ -1,11 +1,17 @@
 import React from 'react';
 
-function App() {
+import Footer from './Footer';
+import Header from './Header';
+import Main from './Main';
+
+const App = () => {
   return (
     <>
-      <div>work</div>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
-}
+};
 
 export default App;

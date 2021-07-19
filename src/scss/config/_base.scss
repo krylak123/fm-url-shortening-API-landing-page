@@ -8,3 +8,18 @@ html {
     font-family: $font-family-default;
     font-size: $font-size-default;
 }
+
+body {
+    margin-top: 118px;
+    @media screen and (min-width: 1440px) {
+        margin-top: 0;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px 20px;
+    @media screen and (min-width: 1440px) {
+        width: 1200px;
+    }
+}
