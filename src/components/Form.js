@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Form = ({ onChange, onSubmit, value }) => {
+const Form = ({ inputHandler, inputValue, sumbitHandler }) => {
   return (
-    <form className='form'>
+    <form onSubmit={sumbitHandler} className='form'>
       <div className='form__container container'>
         <input
+          onChange={inputHandler}
+          value={inputValue}
           type='text'
           className='form__input form__input--error'
           placeholder='Shorten a link here...'
