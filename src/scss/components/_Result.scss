@@ -1,0 +1,60 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+
+    &__from {
+        padding: 10px 15px;
+        border-bottom: 1px solid $color-neutral-gray;
+    }
+
+    &__to {
+        padding: 10px 15px;
+        color: $color-primary-cyan;
+    }
+
+    &__btn {
+        margin: 0 15px 15px;
+        padding: 7px;
+        font-family: $font-family-default;
+        font-size: $font-size-default;
+        border-radius: 10px;
+        outline: none;
+        border-style: none;
+        background-color: $color-primary-cyan;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $color-primary-violet;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        flex-direction: row;
+        padding: 15px 20px;
+
+        &__links-wrap {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+        }
+
+        &__from {
+            flex-grow: 1;
+            padding: 0;
+            border-style: none;
+        }
+
+        &__to {
+            padding: 0;
+        }
+
+        &__btn {
+            margin: 0;
+            padding: 7px 40px;
+        }
+    }
+}

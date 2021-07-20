@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SearchWrapper from './SearchWrapper';
+import PanelWrapper from './PanelWrapper';
 
 const Main = () => {
   return (
@@ -25,7 +25,7 @@ const Main = () => {
         </div>
       </section>
 
-      <SearchWrapper />
+      <PanelWrapper />
 
       <section className='main__info info'>
         <div className='info__container container'>
