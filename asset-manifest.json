@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor-url-shortening-API/static/css/main.823569fe.chunk.css",
+    "main.js": "/frontend-mentor-url-shortening-API/static/js/main.c9a6e41c.chunk.js",
+    "main.js.map": "/frontend-mentor-url-shortening-API/static/js/main.c9a6e41c.chunk.js.map",
+    "runtime-main.js": "/frontend-mentor-url-shortening-API/static/js/runtime-main.a2b8f4ec.js",
+    "runtime-main.js.map": "/frontend-mentor-url-shortening-API/static/js/runtime-main.a2b8f4ec.js.map",
+    "static/js/2.74944d5b.chunk.js": "/frontend-mentor-url-shortening-API/static/js/2.74944d5b.chunk.js",
+    "static/js/2.74944d5b.chunk.js.map": "/frontend-mentor-url-shortening-API/static/js/2.74944d5b.chunk.js.map",
+    "static/js/3.0790221c.chunk.js": "/frontend-mentor-url-shortening-API/static/js/3.0790221c.chunk.js",
+    "static/js/3.0790221c.chunk.js.map": "/frontend-mentor-url-shortening-API/static/js/3.0790221c.chunk.js.map",
+    "index.html": "/frontend-mentor-url-shortening-API/index.html",
+    "static/css/main.823569fe.chunk.css.map": "/frontend-mentor-url-shortening-API/static/css/main.823569fe.chunk.css.map",
+    "static/js/2.74944d5b.chunk.js.LICENSE.txt": "/frontend-mentor-url-shortening-API/static/js/2.74944d5b.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/frontend-mentor-url-shortening-API/static/media/bg-shorten-mobile.41c34b33.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2b8f4ec.js",
+    "static/js/2.74944d5b.chunk.js",
+    "static/css/main.823569fe.chunk.css",
+    "static/js/main.c9a6e41c.chunk.js"
+  ]
+}
