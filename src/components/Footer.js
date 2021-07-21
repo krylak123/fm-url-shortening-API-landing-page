@@ -1,5 +1,10 @@
 import React from 'react';
 
+import footerIconFacebook from '../images/icon-facebook.svg';
+import footerIconTwitter from '../images/icon-twitter.svg';
+import footerIconPinterest from '../images/icon-pinterest.svg';
+import footerIconInstagram from '../images/icon-instagram.svg';
+
 const Footer = () => {
   return (
     <footer className='footer'>
@@ -80,7 +85,7 @@ const Footer = () => {
             <li className='footer__socials-element'>
               <a href='/' className='footer__socials-link'>
                 <img
-                  src='../images/icon-facebook.svg'
+                  src={footerIconFacebook}
                   alt='facebook logo'
                   className='socials__icon'
                 />
@@ -89,7 +94,7 @@ const Footer = () => {
             <li className='footer__socials-element'>
               <a href='/' className='footer__socials-link'>
                 <img
-                  src='../images/icon-twitter.svg'
+                  src={footerIconTwitter}
                   alt='twitter logo'
                   className='socials__icon'
                 />
@@ -98,7 +103,7 @@ const Footer = () => {
             <li className='footer__socials-element'>
               <a href='/' className='footer__socials-link'>
                 <img
-                  src='../images/icon-pinterest.svg'
+                  src={footerIconPinterest}
                   alt='pinterest logo'
                   className='socials__icon'
                 />
@@ -107,7 +112,7 @@ const Footer = () => {
             <li className='footer__socials-element'>
               <a href='/' className='footer__socials-link'>
                 <img
-                  src='../images/icon-instagram.svg'
+                  src={footerIconInstagram}
                   alt='instagram logo'
                   className='socials__icon'
                 />

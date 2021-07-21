@@ -2,6 +2,11 @@ import React from 'react';
 
 import PanelWrapper from './PanelWrapper';
 
+import introImg from '../images/illustration-working.svg';
+import infoIconBrandRecognition from '../images/icon-brand-recognition.svg';
+import infoIconDetailedRecords from '../images/icon-detailed-records.svg';
+import infoIconFullyCustomizable from '../images/icon-fully-customizable.svg';
+
 const Main = () => {
   return (
     <main className='main'>
@@ -9,7 +14,7 @@ const Main = () => {
         <div className='intro__container container'>
           <div className='intro__img-wrap'>
             <img
-              src='../images/illustration-working.svg'
+              src={introImg}
               alt='illustration working'
               className='intro__img'
             />
@@ -40,7 +45,7 @@ const Main = () => {
             <div className='info__option option'>
               <div className='option__icon-wrap'>
                 <img
-                  src='../images/icon-brand-recognition.svg'
+                  src={infoIconBrandRecognition}
                   alt='brand recognization icon'
                   className='option__icon'
                 />
@@ -55,7 +60,7 @@ const Main = () => {
             <div className='info__option option option--stripes'>
               <div className='option__icon-wrap'>
                 <img
-                  src='../images/icon-detailed-records.svg'
+                  src={infoIconDetailedRecords}
                   alt='detailed records icon'
                   className='option__icon'
                 />
@@ -70,7 +75,7 @@ const Main = () => {
             <div className='info__option option'>
               <div className='option__icon-wrap'>
                 <img
-                  src='../images/icon-fully-customizable.svg'
+                  src={infoIconFullyCustomizable}
                   alt='fully customizable icon'
                   className='option__icon'
                 />

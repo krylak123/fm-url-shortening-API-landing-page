@@ -1,5 +1,7 @@
 import React from 'react';
 
+import logo from '../images/logo.svg';
+
 const Header = () => {
   const handleHambugerOnClick = () => {
     document.querySelector('.nav').classList.toggle('active');
@@ -10,11 +12,7 @@ const Header = () => {
       <div className='header__container container'>
         <div className='header__logo-wrap'>
           <a href='/' className='header__logo-link'>
-            <img
-              src='../images/logo.svg'
-              alt='site logo'
-              className='header__logo'
-            />
+            <img src={logo} alt='site logo' className='header__logo' />
           </a>
         </div>
         <nav className='header__nav nav'>
