@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-import Loader from './Loader';
 import Form from './Form';
 import Results from './Results';
 
@@ -86,11 +85,11 @@ const PanelWrapper = () => {
 
   return (
     <>
-      {isLoading ? <Loader /> : null}
       <Form
         inputHandler={handleInputOnChange}
         inputValue={inputValue}
         sumbitHandler={handleFormOnSubmit}
+        isLoading={isLoading}
       />
       <Results shortedLinksList={resultsList} />
     </>

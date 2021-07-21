@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Form = ({ inputHandler, inputValue, sumbitHandler }) => {
+import Loader from './Loader';
+
+const Form = ({ inputHandler, inputValue, sumbitHandler, isLoading }) => {
   return (
     <form onSubmit={sumbitHandler} className='form'>
       <div className='form__container container'>
@@ -20,6 +22,7 @@ const Form = ({ inputHandler, inputValue, sumbitHandler }) => {
           className='form__input form__input--btn'
         />
       </div>
+      {isLoading ? <Loader /> : null}
     </form>
   );
 };
