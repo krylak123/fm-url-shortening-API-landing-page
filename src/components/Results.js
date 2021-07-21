@@ -2,11 +2,11 @@ import React from 'react';
 
 import Result from './Result';
 
-const Results = ({ shortedLinksList }) => {
+const Results = ({ shortedLinksList, copyHandler, copyInfo }) => {
   const shortedLinksListCopy = shortedLinksList;
 
   const shortedLinksListMap = shortedLinksListCopy.map((item, index) => (
-    <Result key={index} {...item} />
+    <Result key={index} {...item} onCopy={copyHandler} isCopy={copyInfo} />
   ));
 
   return (

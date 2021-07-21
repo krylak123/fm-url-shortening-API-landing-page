@@ -16,7 +16,13 @@ const PanelWrapper = () => {
 
     document.querySelector('.form').classList.remove('error');
 
+    document.querySelectorAll('.result__btn').forEach((btn) => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('result__btn--active');
+    });
+
     setInputValue(value);
+    setIsCopied(false);
   };
 
   const handleFormOnSubmit = (e) => {
@@ -33,8 +39,13 @@ const PanelWrapper = () => {
     setInputValue('');
   };
 
+  const handleOnCopy = () => {
+    setIsCopied(true);
+  };
+
   const validation = (link) => {
     const regex =
+      // eslint-disable-next-line
       /(http|https):\/\/(\w+:{0,1}\w*)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%!\-\/]))?/;
 
     return regex.test(link);
@@ -91,7 +102,11 @@ const PanelWrapper = () => {
         sumbitHandler={handleFormOnSubmit}
         isLoading={isLoading}
       />
-      <Results shortedLinksList={resultsList} />
+      <Results
+        shortedLinksList={resultsList}
+        copyHandler={handleOnCopy}
+        copyInfo={isCopied}
+      />
     </>
   );
 };

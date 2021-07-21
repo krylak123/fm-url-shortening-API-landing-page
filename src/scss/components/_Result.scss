@@ -27,8 +27,12 @@
         color: #fff;
         cursor: pointer;
 
-        &:hover {
+        &--active {
             background-color: $color-primary-violet;
+        }
+
+        &:hover {
+            background-color: lighten(hsl(180, 66%, 49%), 20%);
         }
     }
 
