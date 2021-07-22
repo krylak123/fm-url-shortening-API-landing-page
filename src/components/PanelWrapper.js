@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Form from './Form';
 import Results from './Results';
@@ -93,6 +93,18 @@ const PanelWrapper = () => {
   const hideLoading = () => {
     setIsLoading(false);
   };
+
+  useEffect(() => {
+    const data = JSON.parse(localStorage.getItem('resultsList'));
+
+    if (data) {
+      setResultsList(data);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('resultsList', JSON.stringify(resultsList));
+  });
 
   return (
     <>
