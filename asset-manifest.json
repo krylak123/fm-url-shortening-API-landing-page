@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/frontend-mentor-url-shortening-API/static/css/main.823569fe.chunk.css",
-    "main.js": "/frontend-mentor-url-shortening-API/static/js/main.c5061d94.chunk.js",
-    "main.js.map": "/frontend-mentor-url-shortening-API/static/js/main.c5061d94.chunk.js.map",
+    "main.js": "/frontend-mentor-url-shortening-API/static/js/main.85d8c8b8.chunk.js",
+    "main.js.map": "/frontend-mentor-url-shortening-API/static/js/main.85d8c8b8.chunk.js.map",
     "runtime-main.js": "/frontend-mentor-url-shortening-API/static/js/runtime-main.a2b8f4ec.js",
     "runtime-main.js.map": "/frontend-mentor-url-shortening-API/static/js/runtime-main.a2b8f4ec.js.map",
     "static/js/2.74944d5b.chunk.js": "/frontend-mentor-url-shortening-API/static/js/2.74944d5b.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.a2b8f4ec.js",
     "static/js/2.74944d5b.chunk.js",
     "static/css/main.823569fe.chunk.css",
-    "static/js/main.c5061d94.chunk.js"
+    "static/js/main.85d8c8b8.chunk.js"
   ]
 }
