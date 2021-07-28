@@ -30,10 +30,8 @@ const PanelWrapper = () => {
 
     const link = inputValue;
 
-    if (!validation(link)) {
-      document.querySelector('.form').classList.add('error');
-      return;
-    }
+    if (!validation(link))
+      return document.querySelector('.form').classList.add('error');
 
     getData(link);
     setInputValue('');
