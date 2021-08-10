@@ -1,11 +1,12 @@
 .info {
-    background-color: #EFF1F7;
+    background-color: #eff1f7;
 
     &__intro {
         margin: 50px 0;
     }
 
-    &__title, &__text {
+    &__title,
+    &__text {
         text-align: center;
     }
 

@@ -1,7 +1,7 @@
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
     width: 100%;
     background-color: #fff;
     z-index: 10;
@@ -18,9 +18,17 @@
         align-items: center;
     }
 
-    &__logo-wrap,&__hamburger-menu {
+    &__logo-wrap,
+    &__hamburger-menu {
         display: flex;
         align-items: center;
+    }
+
+    &__hamburger-menu {
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 2px #fff;
+        z-index: 100;
     }
 
     &__hamburger-menu-icon {
@@ -31,7 +39,7 @@
     }
 
     @media screen and (min-width: 1440px) {
-        position: static;
+        // position: static;
 
         &__hamburger-menu {
             display: none;
