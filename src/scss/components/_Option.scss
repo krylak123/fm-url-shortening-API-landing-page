@@ -5,7 +5,18 @@
     padding: 40px;
     background-color: #fff;
     border-radius: 10px;
-    z-index: 9;
+    z-index: 1;
+
+    &:nth-child(1)::before {
+        content: '';
+        position: absolute;
+        top: 75%;
+        left: 100%;
+        width: 150%;
+        height: 7px;
+        background-color: $color-primary-cyan;
+        z-index: -1;
+    }
 
     &__icon-wrap {
         position: absolute;
@@ -40,11 +51,11 @@
         }
 
         &:nth-child(2) {
-            transform: translateY(40px);
+            margin: 140px 0 60px;
         }
 
         &:nth-child(3) {
-            transform: translateY(80px);
+            margin: 180px 0 20px;
         }
     }
 }
